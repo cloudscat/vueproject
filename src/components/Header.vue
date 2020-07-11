@@ -22,21 +22,7 @@
         </symbol>
       </defs>
     </svg>
-    <div class="navbar">
-      <div class="navbar-left-container">
-        <a href="/">
-          <img class="navbar-brand-logo" src="/imgs/logo.png"></a>
-      </div>
-      <div class="navbar-right-container" style="display: flex;">
-        <a href="http://localhost:8080/#/" target="_blank" class="navbar-link">首页</a>
-        <a class="navbar-link navbar-cart-link" href="/">
-          <!-- 定义svg图标，引用上面的symbol -->
-          <svg class="navbar-cart-logo">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-cart"></use>
-          </svg>
-        </a>
-      </div>
-    </div>
+    
   </header>
 </template>
 <script>
